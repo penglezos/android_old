@@ -13,5 +13,5 @@
 	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" />
 	
 	<!-- Scripts -->
-	<project path="scripts" name="penglezos/scripts" remote="github" revision="master"/>
+	<project path="scripts" name="penglezos/scripts" remote="github" revision="main"/>
 </manifest>
