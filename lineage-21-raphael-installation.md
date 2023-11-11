@@ -9,7 +9,7 @@ First time installation:
 - Sideload the LineageOS .zip:
 On the device, select “Apply Update”, then “Apply from ADB” to begin sideload
 On the host machine, sideload the package using: `adb sideload filename.zip` or you can use an USB-OTG device
-- Sideload GAPPS (recommended: [MindTheGapps](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest)) (optional step) `adb sideload filename.zip`
+- Sideload GAPPS (recommended: [MindTheGapps](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest)) (optional step) `adb sideload filename.zip`
 - Reboot
 - If you face a system bootloop reboot into fastboot mode open terminal and execute `fastboot -w`
 
@@ -19,7 +19,7 @@ Update to newer release:
 - Sideload the LineageOS .zip:
 On the device, select “Apply Update”, then “Apply from ADB” to begin sideload
 On the host machine, sideload the package using: `adb sideload filename.zip` or you can use an USB-OTG device
-- Sideload GAPPS (recommended: [MindTheGapps](https://github.com/MindTheGapps/13.0.0-arm64/releases/latest)) (optional step) `adb sideload filename.zip`
+- Sideload GAPPS (recommended: [MindTheGapps](https://github.com/MindTheGapps/14.0.0-arm64/releases/latest)) (optional step) `adb sideload filename.zip`
 - Reboot
 
 Or you can simply download the OTA package update and install it through the updater menu which will promt to LineageOS recovery and flash it for you.
