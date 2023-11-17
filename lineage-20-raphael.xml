@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="github-local" 
+		fetch="https://github.com/" 
+		revision="lineage-20" />
+
+	<!-- Device -->
+	<project path="device/xiaomi/raphael" name="penglezos/device_xiaomi_raphael" remote="github-local" />
+	<project path="vendor/xiaomi/raphael" name="penglezos/vendor_xiaomi_raphael" remote="github-local" />
+	<project path="kernel/xiaomi/raphael" name="penglezos/kernel_xiaomi_raphael" remote="github-local" />
+	
+	<!-- LineageOS extras -->
+	<project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github-local" />
+	
+	<!-- Android patches -->
+	<project path="patches" name="penglezos/android_patches" remote="github-local" revision="main"/>
+
+	<!-- Scripts -->
+	<project path="scripts" name="penglezos/scripts" remote="github-local" revision="main"/>
+</manifest>
